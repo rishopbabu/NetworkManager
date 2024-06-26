@@ -10,6 +10,7 @@
 
 import Foundation
 
+/// Network Errors
 public enum NetworkError: Error {
     case badURL
     case requestFailed(Error)
